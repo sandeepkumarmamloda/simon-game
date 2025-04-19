@@ -1,0 +1,42 @@
+div[id]{
+    height:400px;
+    width:400px;
+    margin:0px auto;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    grid-template-rows:repeat(2,1fr);
+    grid-row-gap:10%;
+    grid-column-gap:18%;
+}
+div[class]{
+    border-style:solid;
+    border-color:black;
+    border-width:7px;
+    border-radius:20%;
+}
+body,html{
+    height:100%;
+    width:100%;
+    text-align:center;
+}
+/* styling after functionality */
+div.first1{
+    border-style:solid;
+    border-color:black;
+    border-radius:35%;
+}
+div.second1{
+    border-style:solid;
+    border-color:black;
+    border-radius:35%;
+}
+div.third1{
+    border-style:solid;
+    border-color:black;
+    border-radius:35%;
+}
+div.fourth1{
+    border-style:solid;
+    border-color:black;
+    border-radius:35%;
+}
